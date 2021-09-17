@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1706" height="826" viewBox="0 0 1706 826">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: #2a2a71;
+        opacity: 0.01;
+      }
+
+      .cls-1 {
+        font-size: 249px;
+        font-family: Montserrat-Bold, Montserrat;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        font-size: 210px;
+      }
+
+      .cls-2, .cls-3 {
+        font-family: Montserrat-Black, Montserrat;
+        font-weight: 800;
+      }
+
+      .cls-3 {
+        font-size: 75px;
+      }
+    </style>
+  </defs>
+  <g id="Group_7" data-name="Group 7" transform="translate(-121)">
+    <text id="Society" class="cls-1" transform="translate(121 486)"><tspan x="0" y="241">Society</tspan></text>
+    <text id="Unity" class="cls-2" transform="translate(1150 570)"><tspan x="0" y="203">Unity</tspan></text>
+    <text id="Modesty" class="cls-3" transform="translate(1026 207)"><tspan x="0" y="73">Modesty</tspan></text>
+    <text id="Knowledge" class="cls-1" transform="translate(162 243)"><tspan x="0" y="241">Knowledg</tspan></text>
+    <text id="Peace" class="cls-1" transform="translate(218)"><tspan x="0" y="241">Peace</tspan></text>
+  </g>
+</svg>

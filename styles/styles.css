@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background: #F5F5F5;
+    background-image: url("/assets/header.svg");
+    font-family: 'Poppins', sans-serif;
+  }
+  
+@media screen and (max-width: 767px) {
+    section {
+      height: 61vh;
+    }
+  }
+  
+  header {
+    color: #414191;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.062);
+  }
+  
+  main .mainheader {
+    background-image: url("/assets/main.svg");
+    background-size: cover;
+  }
+  
+  @media screen and (max-width: 767px) {
+    main .mainheader{
+      background-image: url("/assets/mmain.svg");
+      background-size: cover;
+    }
+  }
+  
+  nav {
+    color: #414191;
+  }
+  
+  @media screen and (max-width: 767px) {
+    nav {
+      background: rgba(245, 245, 245, 0.94);
+      -webkit-box-shadow: 0 2px 45px rgba(0, 0, 0, 0.154);
+              box-shadow: 0 2px 45px rgba(0, 0, 0, 0.154);
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .is--collapsed {
+      top: -100%;
+      visibility: hidden;
+      opacity: .3;
+      -webkit-transition: all .4s ease;
+      transition: all .4s ease;
+    }
+    .is--appended {
+      top: 0%;
+      opacity: 1;
+      visibility: visible;
+      -webkit-transition: all .4s ease;
+      transition: all .4s ease;
+    }
+  }
+  
+  .neu-light {
+    -webkit-box-shadow: #fafafa -5px -5px 10px, #dbdbdb 5px 5px 10px;
+            box-shadow: #fafafa -5px -5px 10px, #dbdbdb 5px 5px 10px;
+    text-shadow: #fafafa -5px -5px 10px, #dbdbdb 5px 5px 10px;
+    background: #f1f1f1;
+  }
+  
+  .neu-light:active {
+    -webkit-box-shadow: inset #fafafa -5px -5px 10px, inset #dbdbdb 5px 5px 10px;
+            box-shadow: inset #fafafa -5px -5px 10px, inset #dbdbdb 5px 5px 10px;
+  }
+  
+  .neu-light-active {
+    -webkit-box-shadow: inset #fafafa -5px -5px 10px, inset #dbdbdb 5px 5px 10px;
+            box-shadow: inset #fafafa -5px -5px 10px, inset #dbdbdb 5px 5px 10px;
+    text-shadow: inset #fafafa -5px -5px 10px, inset #dbdbdb 5px 5px 10px;
+  }
+  
+  .neu-bg-white {
+    background: #f1f1f1;
+  }
+  
+  .neu-light-static {
+    -webkit-box-shadow: #fafafa -5px -5px 10px, #dbdbdb 5px 5px 10px;
+            box-shadow: #fafafa -5px -5px 10px, #dbdbdb 5px 5px 10px;
+    background: #f1f1f1;
+  }
+  
