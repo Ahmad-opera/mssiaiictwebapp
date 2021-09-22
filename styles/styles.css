@@ -19,13 +19,13 @@ body {
     text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.062);
   }
   
-  main .mainheader {
+  .mainheader {
     background-image: url("/assets/main.svg");
     background-size: cover;
   }
   
   @media screen and (max-width: 767px) {
-    main .mainheader{
+    .mainheader{
       background-image: url("/assets/mmain.svg");
       background-size: cover;
     }
